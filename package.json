@@ -1,0 +1,14 @@
+{
+  "name": "PongIgnatiusEchenique",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "parcel index.html",
+    "prod": "parcel build index.html -d docs"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7"
+  }
+}
